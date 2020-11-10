@@ -11,6 +11,8 @@ using NHibernate.Driver;
 using NHibernate.Mapping.ByCode;
 using System.IO;
 using System.Reflection;
+using Api.DAO;
+using Api.Services;
 
 namespace Api.DbConect
 {
@@ -51,8 +53,23 @@ namespace Api.DbConect
 
 
             //Servicios vinculados a las entidades
-            //services.AddScoped<SocioDAO>();
-          
+            services.AddScoped<CarritoDAO>();
+            services.AddScoped<ColeccionDAO>();
+            services.AddScoped<ComentarioDAO>();
+            services.AddScoped<CuponDAO>();
+            services.AddScoped<DescuentoDAO>();
+            services.AddScoped<DireccionDAO>();
+            services.AddScoped<EncargoDAO>();
+            services.AddScoped<LineaDeItemDAO>();
+            services.AddScoped<PedidoDAO>();
+            services.AddScoped<ProductoDAO>();
+            services.AddScoped<RolDAO>();
+            services.AddScoped<TipoDeEncargoDAO>();
+            services.AddScoped<UsuarioDAO>();
+
+            services.AddScoped<UsuarioService>();
+            services.AddScoped<ProductoService>();
+
 
             return services;
         }

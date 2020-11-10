@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api</name>
+    </assembly>
+    <members>
+        <member name="M:Api.Controllers.ProductoController.Get">
+            
+             <summary>
+             Trae todas las productos
+             </summary>
+             <returns>Lista de productoes</returns>
+             <remarks> Trae las productoes en formato json en una lista </remarks>
+             <response code="200">Todo Correcto</response>
+             <response code="400">Bad Getway</response>
+        </member>
+        <member name="M:Api.Controllers.ProductoController.Post(Api.DTOs.ProductoPostDTO)">
+            <summary>
+            Post de una producto
+            </summary>
+            <param name="producto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.ProductoController.Update(Api.DTOs.ProductoGetPutDTO)">
+            <summary>
+            Actualiza una producto
+            </summary>
+            <param name="producto"></param>
+            <remarks> Actualiza una producto mediante el id de esta </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.ProductoController.GetDescuento">
+            <summary>
+            Trae todas las descuentoes
+            </summary>
+            <returns>Lista de descuentoes</returns>
+            <remarks> Trae las descuentoes en formato json en una lista </remarks>
+            <response code="200">Todo Correcto</response>
+            <response code="400">Bad Getway</response>
+        </member>
+        <member name="M:Api.Controllers.ProductoController.Post(Api.DTOs.DescuentoPostDTO)">
+            <summary>
+            Post de una descuento
+            </summary>
+            <param name="descuento"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.ProductoController.Update(Api.DTOs.DescuentoGetPutDTO)">
+            <summary>
+            Actualiza una descuento
+            </summary>
+            <param name="descuento"></param>
+            <remarks> Actualiza una descuento mediante el id de esta </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.UsuarioController.GetUsuarios">
+            <summary>
+            Trae todos los usuarios
+            </summary>
+            <returns>Lista de usuarios</returns>
+            <remarks> Trae las usuarioes en formato json en una lista </remarks>
+            <response code="200">Todo Correcto</response>
+            <response code="400">Bad Getway</response>
+        </member>
+        <member name="M:Api.Controllers.UsuarioController.Post(Api.DTOs.UsuarioPostDTO)">
+            <summary>
+            Post de un usuario
+            </summary>
+            <param name="usuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.UsuarioController.Update(Api.DTOs.UsuarioGetPutDTO)">
+            <summary>
+            Actualiza un Usuario
+            </summary>
+            <param name="usuario"></param>
+            <remarks> Actualiza una usuario mediante el id de esta </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.UsuarioController.GetDirecciones">
+            <summary>
+            Trae todas las direcciones
+            </summary>
+            <returns>Lista de direcciones</returns>
+            <remarks> Trae las direcciones en formato json en una lista </remarks>
+            <response code="200">Todo Correcto</response>
+            <response code="400">Bad Getway</response>
+        </member>
+        <member name="M:Api.Controllers.UsuarioController.Post(Api.DTOs.DireccionPostDTO)">
+            <summary>
+            Post de una direccion
+            </summary>
+            <param name="direccion"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.UsuarioController.Update(Api.DTOs.DireccionGetPutDTO)">
+            <summary>
+            Actualiza una direccion
+            </summary>
+            <param name="direccion"></param>
+            <remarks> Actualiza una direccion mediante el id de esta </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.UsuarioController.Get">
+            <summary>
+            Trae todas las roles
+            </summary>
+            <returns>Lista de roles</returns>
+            <remarks> Trae las roles en formato json en una lista </remarks>
+            <response code="200">Todo Correcto</response>
+            <response code="400">Bad Getway</response>
+        </member>
+        <member name="M:Api.Controllers.UsuarioController.Post(Api.DTOs.RolPostDTO)">
+            <summary>
+            Post de una rol
+            </summary>
+            <param name="rol"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.UsuarioController.Update(Api.DTOs.RolGetPutDTO)">
+            <summary>
+            Actualiza una rol
+            </summary>
+            <param name="rol"></param>
+            <remarks> Actualiza una rol mediante el id de esta </remarks>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

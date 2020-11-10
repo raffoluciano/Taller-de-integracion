@@ -16,6 +16,8 @@ using System.Text.Json;
 using System.Net;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
+using Api.DbConect;
+using Api.Mappings;
 
 
 namespace Api
@@ -32,7 +34,17 @@ namespace Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // para usar automaper como inyeccion de dependencia
+            services.AddAutoMapper(typeof(Startup));
+
+            // Agregemos servicie nhibernete
+            string connectionString = Microsoft.Extensions.Configuration.ConfigurationExtensions.GetConnectionString(this.Configuration, "DefaultConnection");
+
+            services.AddNHibernate(connectionString);
+
             services.AddControllers();
+
+            services.AddMvc();
 
             services.AddSwaggerGen(config =>
             {
@@ -44,7 +56,7 @@ namespace Api
 
                 });
 
-                //config.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "Api Socios CJU.xml"));
+                config.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "Api.xml"));
             });
         }
 
@@ -55,6 +67,7 @@ namespace Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
 
             //agregamos swagger
             app.UseSwagger();

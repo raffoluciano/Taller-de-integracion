@@ -7,7 +7,6 @@ C:\Users\RetailAdmin\Documents\3° Año lis. sistemas\Taller de Integración\Api
 C:\Users\RetailAdmin\Documents\3° Año lis. sistemas\Taller de Integración\Api\Api\bin\Debug\netcoreapp3.1\Api.runtimeconfig.dev.json
 C:\Users\RetailAdmin\Documents\3° Año lis. sistemas\Taller de Integración\Api\Api\bin\Debug\netcoreapp3.1\Api.dll
 C:\Users\RetailAdmin\Documents\3° Año lis. sistemas\Taller de Integración\Api\Api\bin\Debug\netcoreapp3.1\Api.pdb
-C:\Users\RetailAdmin\Documents\3° Año lis. sistemas\Taller de Integración\Api\Api\obj\Debug\netcoreapp3.1\Api.csprojAssemblyReference.cache
 C:\Users\RetailAdmin\Documents\3° Año lis. sistemas\Taller de Integración\Api\Api\obj\Debug\netcoreapp3.1\Api.AssemblyInfoInputs.cache
 C:\Users\RetailAdmin\Documents\3° Año lis. sistemas\Taller de Integración\Api\Api\obj\Debug\netcoreapp3.1\Api.AssemblyInfo.cs
 C:\Users\RetailAdmin\Documents\3° Año lis. sistemas\Taller de Integración\Api\Api\obj\Debug\netcoreapp3.1\Api.RazorTargetAssemblyInfo.cache
@@ -35,3 +34,5 @@ C:\Users\RetailAdmin\Documents\3° Año lis. sistemas\Taller de Integración\Api
 C:\Users\RetailAdmin\Documents\3° Año lis. sistemas\Taller de Integración\Api\Api\obj\Debug\netcoreapp3.1\Api.csproj.CoreCompileInputs.cache
 C:\Users\RetailAdmin\Documents\3° Año lis. sistemas\Taller de Integración\Api\Api\obj\Debug\netcoreapp3.1\Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\RetailAdmin\Documents\3° Año lis. sistemas\Taller de Integración\Api\Api\obj\Debug\netcoreapp3.1\Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\RetailAdmin\Documents\3° Año lis. sistemas\Taller de Integración\Api\Api\bin\Debug\netcoreapp3.1\Api.xml
+C:\Users\RetailAdmin\Documents\3° Año lis. sistemas\Taller de Integración\Api\Api\obj\Debug\netcoreapp3.1\Api.csprojAssemblyReference.cache
