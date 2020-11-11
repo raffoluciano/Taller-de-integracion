@@ -20,6 +20,6 @@ namespace Api.DTOs
 
         public virtual byte imagen { get; set; }
 
-        public virtual Coleccion Coleccion { get; set; }
+        //public virtual Coleccion Coleccion { get; set; }
     }
 }

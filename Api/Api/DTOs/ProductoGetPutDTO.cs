@@ -22,8 +22,8 @@ namespace Api.DTOs
 
         public virtual byte imagen { get; set; }
 
-        public virtual Coleccion Coleccion { get; set; }
+        //public virtual Coleccion Coleccion { get; set; }
 
-        public virtual Descuento Descuento { get; set; }
+        public virtual int DescuentoId { get; set; }
     }
 }

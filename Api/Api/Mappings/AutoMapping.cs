@@ -17,15 +17,19 @@ namespace Api.Mappings
             .ReverseMap();
 
             CreateMap<Entities.Direccion, DTOs.DireccionGetPutDTO>()
+            .ForMember(x => x.UsuarioId, opt => opt.MapFrom(src => src.Usuario.Id))  
             .ReverseMap();
 
             CreateMap<Entities.Direccion, DTOs.DireccionPostDTO>()
+            .ForMember(x => x.UsuarioId, opt => opt.MapFrom(src => src.Usuario.Id))  
             .ReverseMap();
 
             CreateMap<Entities.Producto, DTOs.ProductoGetPutDTO>()
-           .ReverseMap();
+            .ForMember(x => x.DescuentoId, opt => opt.MapFrom(src => src.Descuento.Id))  
+            .ReverseMap();
 
             CreateMap<Entities.Producto, DTOs.ProductoPostDTO>()
+            .ForMember(x => x.DescuentoId, opt => opt.MapFrom(src => src.Descuento.Id))  
             .ReverseMap();
 
             CreateMap<Entities.Rol, DTOs.RolGetPutDTO>()
@@ -35,9 +39,11 @@ namespace Api.Mappings
             .ReverseMap();
 
             CreateMap<Entities.Usuario, DTOs.UsuarioGetPutDTO>()
-          .ReverseMap();
+            .ForMember(x => x.RolId, opt => opt.MapFrom(src => src.Rol.Id))
+            .ReverseMap();
 
             CreateMap<Entities.Usuario, DTOs.UsuarioPostDTO>()
+            .ForMember(x => x.RolId, opt => opt.MapFrom(src => src.Rol.Id))
             .ReverseMap();
 
 

@@ -24,6 +24,6 @@ namespace Api.DTOs
 
         public virtual string Email { get; set; }
 
-        public virtual Rol Rol { get; set; }
+        public virtual int RolId { get; set; }
     }
 }
