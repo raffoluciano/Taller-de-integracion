@@ -26,6 +26,6 @@ namespace Api.DTOs
 
         public virtual float Costo { get; set; }
 
-        public virtual id UsuarioId { get; set; }
+        public virtual int UsuarioId { get; set; }
     }
 }

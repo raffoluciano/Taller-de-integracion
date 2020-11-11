@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tw9Bx0a5LcTzzuP5wbOx0ZLg17ZYnB1V/F5a4DKvsgU5JHC6dYH9tby216VjL8Hq1rKmHFeJfCRvkXbwLaeLBQ==",
+  "dgSpecHash": "BCNllIpEVrE69auX6kYr8VDZ6+bQtYEhe5QK+kgfm8u63ub3NT3rYs98KhrDVxThV5hNTPs3LdoxfMdEfehg+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RetailAdmin\\Documents\\3° Año lis. sistemas\\Taller de Integración\\Api\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\RetailAdmin\\Documents\\3° Año lis. sistemas\\Taller de Integración\\Taller-de-integracion\\Api\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RetailAdmin\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
     "C:\\Users\\RetailAdmin\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
